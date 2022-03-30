@@ -255,6 +255,68 @@
     padding: 10px 0px 10px 0px;
 }
 
+.education
+{
+    
+    background-color: #D9E8F5;
+    color: #304269;
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+    
+}
+
+.education h1
+{
+    padding: 30pt 0pt 15pt 0pt;
+
+}
+
+.education .box
+{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.education .box .container
+{
+    display: flex;
+    align-items: center;
+    background-color: #D9E8F5;
+    margin: 20px 0px 20px 0px;
+    
+    
+}
+.education .box .container .dot
+{
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #91BED4;
+    border: 5px solid #F26101;
+}
+.education .box .container .content
+{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #91BED4;
+    border-radius: 1%;
+    text-align: left;
+
+    padding: 5px 0px 5px 15px;
+}
+.foot
+{
+    height: 50pt;
+    background-color: #304269;
+    color: #294168;
+    text-align: center;
+}
+.foot p
+{
+    padding-top: 10pt;
+}
 
 
 /* Color Theme Swatches in Hex */
