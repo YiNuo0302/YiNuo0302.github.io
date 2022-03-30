@@ -252,7 +252,7 @@
     justify-content: center; 
     /* align-items: center;  */
     background-color: #D9E8F5;
-    padding: 10px 0px 40px 0px;
+    padding: 10px 10vw 40px 10vw;
 }
 
 .education
@@ -295,6 +295,58 @@
     border: 5px solid #F26101;
 }
 .education .box .container .content
+{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #91BED4;
+    border-radius: 1%;
+    text-align: left;
+
+    padding: 5px 0px 5px 15px;
+}
+
+.work
+{
+    
+    background-color: #D9E8F5;
+    color: #304269;
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+    
+}
+
+.work h1
+{
+    padding: 30pt 0pt 15pt 0pt;
+
+}
+
+.work .box
+{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.work .box .container
+{
+    display: flex;
+    align-items: center;
+    background-color: #D9E8F5;
+    margin: 20px 0px 20px 0px;
+    
+    
+}
+.work .box .container .dot
+{
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #91BED4;
+    border: 5px solid #F26101;
+}
+.work .box .container .content
 {
     width: 100%;
     margin-left: 10px;
