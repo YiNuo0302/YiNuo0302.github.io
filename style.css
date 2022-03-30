@@ -1,0 +1,201 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+*
+{
+    font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+.navbar
+{
+    background-color: #304269;
+    height: 60px;
+    width: 100%;
+    margin: 0pt 0pt 0pt 0pt;
+}
+
+.navbar .L
+{
+    float: left;
+    color: #D9E8F5;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.banner
+{
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: #D9E8F5;
+    padding-bottom: 0%;
+ 
+}
+.banner img
+{
+    top: 960px;
+    margin-top: -480px;
+    min-width: 100%;
+}
+
+.about
+{
+    
+    padding-top: 0%;
+    background-color: #D9E8F5;
+    color: #304269;
+    text-align: center;
+
+}
+.about .title
+{
+    background-color: #91BED4;
+}
+.about h1
+{
+    padding: 30pt 0pt 15pt 0pt;
+}
+
+.about p
+{
+    font-size: 20px;
+    padding: 5pt 0pt 15pt 0pt;
+}
+
+.about .bar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #91BED4;
+    padding: 10px 0px 10px 0px;
+}
+
+.about .bar .contact
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0px 10px 0px 10px;
+
+}
+.about .bar .contact img
+{
+    width: 30px;
+    height: 30px;
+    padding:  0px 0px 0px 0px;
+}
+.about .bar .contact h3
+{
+    flex: content;
+    padding: 8px 0px 10px 0px;
+}
+
+.skills
+{
+    background-color: #304269;
+    text-align: center;
+    color: #D9E8F5;
+
+}
+.skills h1
+{
+    padding: 30pt 0pt 15pt 0pt;
+    
+}
+
+.skills .bar
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px 0px 10px 0px;
+    margin: 0pt 10vw 0pt 10vw;
+
+}
+
+.skills .bar .contact
+{
+    justify-content: center; 
+    align-items: center; 
+    margin: 0px 10px 20px 10px;
+}
+
+.skills .bar .content img
+{
+    margin: 0px 2vw 0px 2vw;
+    width: 20vw;
+    height: 20vw;
+    max-width: 150px;
+    max-height: 150px;
+    padding:  25px 25px 25px 25px;
+    clip-path: circle(50%);
+    background-color: #91BED4;
+}
+.skills .bar .content h2
+{
+    flex: content;
+    padding: 0px 0px 20px 0px;
+}
+
+.awards
+{
+    
+    background-color: #D9E8F5;
+    color: #304269;
+    text-align: center;
+    
+    
+}
+
+.awards h1
+{
+    padding: 30pt 0pt 15pt 0pt;
+}
+
+.awards .box
+{
+
+
+
+}
+
+.awards .box .container
+{
+    display: flex;
+    align-items: center;
+    background-color: #D9E8F5;
+    margin: 20px 0px 20px 0px;
+    
+}
+.awards .box .container .dot
+{
+    width: 12pt;
+    height: 12pt;
+    border-radius: 50%;
+    background-color: #91BED4;
+    border: 5px solid #F26101;
+}
+.awards .box .container .content
+{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D9E8F5;
+    border: 1px solid #91BED4;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Color Theme Swatches in Hex */
+.Corporate-Orange--Blue-1-hex { color: #304269; }
+.Corporate-Orange--Blue-2-hex { color: #91BED4; }
+.Corporate-Orange--Blue-3-hex { color: #D9E8F5; }
+.Corporate-Orange--Blue-4-hex { color: #FFFFFF; }
+.Corporate-Orange--Blue-5-hex { color: #F26101; }
