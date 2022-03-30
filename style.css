@@ -10,7 +10,7 @@
     background-color: #304269;
     height: 60px;
     width: 100%;
-    margin: 0pt 0pt 0pt 0pt;
+    margin: 0px 0px 0px 0px;
 }
 
 .navbar .L
@@ -112,7 +112,7 @@
     justify-content: center; 
     align-items: center; 
     padding: 10px 0px 10px 0px;
-    margin: 0pt 10vw 0pt 10vw;
+    margin: 0px 10vw 0px 10vw;
 
 }
 
@@ -146,20 +146,20 @@
     background-color: #D9E8F5;
     color: #304269;
     text-align: center;
-    
+    padding: 0px 20px 30px 20px;
     
 }
 
 .awards h1
 {
     padding: 30pt 0pt 15pt 0pt;
+
 }
 
 .awards .box
 {
-
-
-
+    margin: 0 auto;
+    width: 500px;
 }
 
 .awards .box .container
@@ -169,27 +169,91 @@
     background-color: #D9E8F5;
     margin: 20px 0px 20px 0px;
     
+    
 }
 .awards .box .container .dot
 {
-    width: 12pt;
-    height: 12pt;
+    width: 17px;
+    height: 15px;
     border-radius: 50%;
     background-color: #91BED4;
     border: 5px solid #F26101;
 }
 .awards .box .container .content
 {
+    width: 100%;
     margin-left: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #D9E8F5;
-    border: 1px solid #91BED4;
+    background-color: #91BED4;
+    border-radius: 1%;
     text-align: left;
+
+    padding: 5px 0px 5px 15px;
 }
 
 
+.licenses
+{
+    
+    background-color: #D9E8F5;
+    color: #304269;
+    text-align: center;
+    padding: 0px 20px 30px 20px;
+    
+}
 
+.licenses h1
+{
+    padding: 30pt 0pt 15pt 0pt;
+
+}
+
+.licenses .box
+{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.licenses .box .container
+{
+    display: flex;
+    align-items: center;
+    background-color: #D9E8F5;
+    margin: 20px 0px 20px 0px;
+    
+    
+    
+}
+.licenses .box .container .dot
+{
+    width: 17px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #91BED4;
+    border: 5px solid #F26101;
+}
+.licenses .box .container .content
+{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #91BED4;
+    border-radius: 1%;
+    text-align: left;
+    padding: 5px 0px 5px 15px;
+}
+
+.padding
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    /* align-items: center;  */
+    background-color: #D9E8F5;
+    padding: 10px 0px 10px 0px;
+}
 
 
 
